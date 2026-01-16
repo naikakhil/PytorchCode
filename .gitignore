@@ -1,0 +1,88 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+.conda/
+.envrc
+
+# Package / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+# If you want to ignore all notebooks, uncomment:
+# *.ipynb
+
+# Logs and debug
+logs/
+*.log
+*.out
+*.err
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# Data and models (keep only small samples in git)
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# ML experiment artifacts
+runs/
+mlruns/
+wandb/
+tensorboard/
+lightning_logs/
+checkpoints/
+
+# Environment / config with secrets
+.env
+*.env
+.env.*
+.envrc
+.secret*
+secrets.*
+config/local*.yaml
+config/local*.yml
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# Misc
+*.sqlite3
+*.db
+*.tmp
+*.bak
+*.backup
+*.original
+*.swp
